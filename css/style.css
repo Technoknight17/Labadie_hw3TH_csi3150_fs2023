@@ -1,3 +1,10 @@
+button {
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
 .landingPage {
     background-image: url(../img/london-skyline.jpeg);
     background-position: bottom;
@@ -20,4 +27,39 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24pt;
+}
+
+.hookPage {
+    background-image: url(../img/london-skyline-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 700px;
+}
+
+.leftHook {
+    width: 50%;
+    float: left;
+}
+
+.leftHook h1 {
+    color: white;
+    font-size: 60pt;
+    padding: 50px;
+}
+
+.rightHook {
+    width: 50%;
+    float: right;
+}
+
+.rightHook p {
+    color: white;
+    font-size: 18pt;
+    padding: 10px;
+}
+
+.rightHook .startParagraph {
+    padding-top: 50px;
 }
