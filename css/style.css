@@ -1,0 +1,23 @@
+.landingPage {
+    background-image: url(../img/london-skyline.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 770px;
+}
+
+.landingPage h1 {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60pt;
+    padding-top: 280px;
+}
+
+.landingPage p {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24pt;
+}
