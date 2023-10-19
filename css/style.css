@@ -12,19 +12,17 @@ button {
     background-size: cover;
     width: auto;
     height: 770px;
+    text-align: center;
+    color: white;
 }
 
 .landingPage h1 {
-    color: white;
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60pt;
     padding-top: 280px;
 }
 
 .landingPage p {
-    color: white;
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24pt;
 }
@@ -62,4 +60,60 @@ button {
 
 .rightHook .startParagraph {
     padding-top: 50px;
+}
+
+.rightHook button {
+    padding: 10px;
+    font-size: 18pt;
+}
+
+.experiencesPage {
+    background-image: url(../img/english-countryside.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 770px;
+}
+
+.experiencesPage h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48pt;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.experiencesPage .experiences {
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experiences .experiencesCountry {
+    background-image: url(../img/london-skyline.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
+
+.experiences .experiencesCity {
+    background-image: url(../img/london-skyline.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
+
+.experiences .experiencesMuseum {
+    background-image: url(../img/london-skyline.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
 }
