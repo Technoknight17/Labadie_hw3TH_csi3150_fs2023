@@ -5,6 +5,10 @@ button {
     cursor: pointer;
 }
 
+p {
+    color: white;
+}
+
 .landingPage {
     background-image: url(../img/london-skyline.jpeg);
     background-position: bottom;
@@ -85,35 +89,50 @@ button {
     padding-bottom: 15px;
 }
 
-.experiencesPage .experiences {
+.experiences {
     margin: 25px;
     display: flex;
     justify-content: space-around;
 }
 
-.experiences .experiencesCountry {
-    background-image: url(../img/london-skyline.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 500px;
+.experiences p {
+    font-size: 24pt;
+    padding-left: 10px;
 }
 
-.experiences .experiencesCity {
+.experiencesCountry {
     background-image: url(../img/london-skyline.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 400px;
     height: 500px;
+    position: relative;
 }
 
-.experiences .experiencesMuseum {
+.experiencesCity {
     background-image: url(../img/london-skyline.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 400px;
     height: 500px;
+    position: relative;
+    
+}
+
+.experiencesMuseum {
+    background-image: url(../img/london-skyline.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+
+.bottomAlign {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
