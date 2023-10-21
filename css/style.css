@@ -18,16 +18,15 @@ p {
     height: 770px;
     text-align: center;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .landingPage h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60pt;
     padding-top: 280px;
 }
 
 .landingPage p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24pt;
 }
 
@@ -99,7 +98,7 @@ p {
 }
 
 .experiences {
-    margin: 25px;
+    margin: 10px;
     display: flex;
     justify-content: space-around;
 }
@@ -115,7 +114,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     width: 400px;
-    height: 500px;
+    height: 600px;
     position: relative;
 }
 
@@ -125,7 +124,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     width: 400px;
-    height: 500px;
+    height: 600px;
     position: relative;
     
 }
@@ -136,7 +135,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     width: 400px;
-    height: 500px;
+    height: 600px;
     position: relative;
 }
 
