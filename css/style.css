@@ -1,160 +1,193 @@
 button {
-    border-radius: 3px;
-    padding: 5px;
-    margin: 5px;
-    cursor: pointer;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 .landingPage {
-    background-image: url(../img/london-skyline.jpeg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 770px;
-    text-align: center;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(../img/london-skyline.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 770px;
+  text-align: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .landingPage h1 {
-    font-size: 60pt;
-    padding-top: 280px;
+  font-size: 60pt;
+  padding-top: 280px;
 }
 
 .landingPage p {
-    font-size: 24pt;
+  font-size: 24pt;
 }
 
 .arrow {
-    border: solid white;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 10px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 .hookPage {
-    background-image: url(../img/london-skyline-2.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 700px;
+  background-image: url(../img/london-skyline-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 700px;
 }
 
 .leftHook {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 
 .leftHook h1 {
-    color: white;
-    font-size: 60pt;
-    padding: 50px;
+  color: white;
+  font-size: 60pt;
+  padding: 50px;
 }
 
 .rightHook {
-    width: 50%;
-    float: right;
+  width: 50%;
+  float: right;
 }
 
 .rightHook p {
-    color: white;
-    font-size: 18pt;
-    padding: 10px;
+  color: white;
+  font-size: 18pt;
+  padding: 10px;
 }
 
 .rightHook .startParagraph {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .rightHook button {
-    padding: 10px;
-    font-size: 18pt;
+  padding: 10px;
+  font-size: 18pt;
 }
 
 .experiencesPage {
-    background-image: url(../img/english-countryside.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 770px;
+  background-image: url(../img/english-countryside.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 770px;
 }
 
 .experiencesPage h1 {
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 48pt;
-    padding-top: 25px;
-    padding-bottom: 15px;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48pt;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 .experiences {
-    margin: 10px;
-    display: flex;
-    justify-content: space-around;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .experiences p {
-    font-size: 24pt;
-    padding-left: 10px;
+  font-size: 24pt;
+  padding-left: 10px;
 }
 
 .experiencesCountry {
-    background-image: url(../img/english-countryside-2.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 600px;
-    position: relative;
+  background-image: url(../img/english-countryside-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  position: relative;
 }
 
 .experiencesCity {
-    background-image: url(../img/london-skyline-3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 600px;
-    position: relative;
-    
+  background-image: url(../img/london-skyline-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  position: relative;
 }
 
 .experiencesMuseum {
-    background-image: url(../img/British-Museum-London.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 600px;
-    position: relative;
+  background-image: url(../img/British-Museum-London.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  position: relative;
 }
 
 .bottomAlign {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .bottomAlign .arrow {
-    margin-left: 20px;
-    margin-bottom: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .railTour {
-    background-image: url(../img/london-skyline.jpeg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 770px;
+  background-image: url(../img/Kings-Cross-Station.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 770px;
+}
+
+.leftRailTour {
+  width: 50%;
+  float: left;
+}
+
+.rightRailTour {
+  width: 50%;
+  float: right;
+}
+
+.railTour * {
+  color: black;
+}
+
+.railTour h1 {
+  font-size: 52pt;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.railTour h2 {
+  font-size: 38pt;
+  padding: 10pt;
+}
+
+.railTour .startParagraph {
+  padding-top: 30px;
+}
+
+.railTour p {
+  font-size: 14pt;
+  padding: 5px;
 }
