@@ -3,11 +3,9 @@ function displayText1() {
 }
 
 function displayText2() {
-  var text = document.getElementById("textField");
-  text.style.display = "block";
+  document.getElementById("hiddenDefault2").style.display = "block";
 }
 
 function displayText3() {
-  var text = document.getElementById("textField");
-  text.style.display = "block";
+  document.getElementById("hiddenDefault3").style.display = "block";
 }
