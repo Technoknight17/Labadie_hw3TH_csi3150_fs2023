@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore England</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
     <!-- Supress Browser Styling -->
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript" src="./js/javascript.js"></script>
   </head>
   <body>
-    <div class="landingPage">
+    <section class="landingPage">
       <h1>Explore London</h1>
       <p>England Visits Co.</p>
-      <a class="arrow" href="#hookPage"></a>
-    </div>
-    <div class="hookPage" id="hookPage">
+      <a class="arrowDown" href="#hookPage"></a>
+    </section>
+    <section class="hookPage" id="hookPage">
       <div class="leftHook">
         <h1>Is London or England on your bucket list?</h1>
       </div>
@@ -36,31 +37,41 @@
         </p>
         <button type="button">Learn More</button>
       </div>
-    </div>
-    <div class="experiencesPage">
+    </section>
+    <section class="experiencesPage">
       <h1>Explore the beauty of England</h1>
       <div class="experiences">
         <div class="experiencesCountry">
           <div class="bottomAlign">
             <p>English Country Tour</p>
-            <a class="arrow" href=""></a>
+            <p class="arrowDown"></p>
+            <button onclick="displayText1()">Reveal Text</button>
+            <div class="hiddenDefault1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
           </div>
         </div>
         <div class="experiencesCity">
           <div class="bottomAlign">
             <p>London City Tour</p>
-            <a class="arrow" href=""></a>
+            <p class="arrowDown" href=""></p>
           </div>
         </div>
         <div class="experiencesMuseum">
           <div class="bottomAlign">
             <p>British Museum</p>
-            <a class="arrow" href=""></a>
+            <p class="arrowDown"></p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="railTour">
+    </section>
+    <section class="railTour">
       <div class="leftRailTour">
         <h1>Mosaics, Trains, and Acoustics with the London Underground</h1>
       </div>
@@ -93,8 +104,8 @@
           contact us online.
         </p>
       </div>
-    </div>
-    <div class="statistics">
+    </section>
+    <section class="statistics">
       <div class="stats">
         <div class="hotels">
           <h1 class="hotelsContent">650</h1>
@@ -113,9 +124,9 @@
           <p class="safetyContent">Safe & Secure</p>
         </div>
       </div>
-    </div>
-    <div class="review">
-      <img src="" alt="reviewImage" />
+    </section>
+    <section class="review">
+      <img src="./img/bnw-man-headshot.jpg" alt="reviewImage" />
       <p>
         "This was a fantastic experience, we saw so much, the scenery, the art,
         and met some amazing people, really getting to know the people in
@@ -125,9 +136,39 @@
         trip!"
       </p>
       <p>Connor Quinn</p>
-      <a class="arrow" href=""></a>
-    </div>
-    <div class="photoAlbum"></div>
-    <div class="contactUs"></div>
+      <p class="arrowDown"></p>
+    </section>
+    <section class="photoAlbum">
+      <p class="arrowLeft"></p>
+      <p class="arrowRight"></p>
+      <div class="carosel">
+        <img src="./img/photoAlbum1.jpg" alt="Photo Album Image #1" />
+        <img src="./img/photoAlbum2.webp" alt="Photo Album Image #2" />
+        <img src="./img/photoAlbum3.avif" alt="Photo Album Image #3" />
+        <img src="./img/photoAlbum4.jpg" alt="Photo Album Image #4" />
+      </div>
+    </section>
+    <section class="contactUs">
+      <div class="left">
+        <h1>Contact Us</h1>
+        <p>Toll Free: <a href="tel:+18000872835">+1 (800) 087-2835</a></p>
+        <p>England: <a href="tel:+442080872835">+44 20-8087-2835</a></p>
+        <p>Fax: +44 20-8087-2836</p>
+        <p>Email: <a href="mailto:info@england.com">info@england.com</a></p>
+        <div class="socials">
+          <a href="https://www.facebook.com/oaklandu/">Facebook</a>
+          <a href="https://www.facebook.com/oaklandu/">Twitter</a>
+          <a href="https://www.facebook.com/oaklandu/">Instagram</a>
+          <a href="https://www.facebook.com/oaklandu/">Pintrest</a>
+          <a href="https://www.facebook.com/oaklandu/">Linkedin</a>
+        </div>
+      </div>
+      <div class="right">
+        <input class="first" type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input class="last" type="text" placeholder="Message" />
+        <button type="submit">Submit</button>
+      </div>
+    </section>
   </body>
 </html>

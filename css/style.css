@@ -30,11 +30,12 @@ button {
   font-size: 24pt;
 }
 
-.arrow {
+.arrowDown {
   border: solid white;
   border-width: 0 5px 5px 0;
   display: inline-block;
   padding: 10px;
+  margin: 15px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
@@ -103,6 +104,10 @@ button {
 .experiences p {
   font-size: 24pt;
   padding-left: 10px;
+}
+
+.experiences .hiddenDefault1 {
+  display: none;
 }
 
 .experiencesCountry {
@@ -270,11 +275,110 @@ button {
 }
 
 .review img {
-  padding-top: 150px;
+  margin-top: 50px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .review p {
   padding-left: 100px;
   padding-right: 100px;
   font-size: 24pt;
+}
+
+.review .arrowDown {
+  padding: 10px;
+}
+
+.photoAlbum {
+  width: auto;
+  height: 580px;
+  position: relative;
+}
+
+.photoAlbum .carosel {
+  display: flex;
+}
+
+.carosel img {
+  width: 395.8px;
+  object-fit: cover;
+}
+
+.arrowLeft {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  margin: 15px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  top: 300px;
+  left: 10px;
+}
+
+.arrowRight {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  margin: 15px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  top: 300px;
+  right: 10px;
+}
+
+.contactUs {
+  background-image: url(../img/view-of-river-thames.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 600px;
+}
+
+.contactUs .left {
+  width: 50%;
+  float: left;
+}
+
+.contactUs .right {
+  width: 50%;
+  float: right;
+}
+
+.contactUs .left * {
+  padding-left: 50px;
+}
+
+.contactUs h1 {
+  padding-top: 100px;
+  font-size: 48pt;
+}
+
+.contactUs .left a {
+  padding: 0px;
+}
+
+.contactUs .right .first {
+  margin-top: 200px;
+}
+
+.contactUs .right .last {
+  padding-bottom: 100px;
+}
+
+.contactUs .right input {
+  border: solid black 2px;
+  border-radius: 2px;
+  padding-top: 25px;
+  padding-right: 500px;
+  margin-bottom: 10px;
+  color: black;
 }
